@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+body{
+    font-size:medium;
+    background-color:cadetblue;
+    text-align:center 
+
+}
+
+.score{
+    font-size:medium;
+    font-weight:bold;
+    color:deeppink
+}
+
+#sudent-score{
+    color:deeppink
+}
+
+#score-total{
+    color:deeppink
+}
+
+.btn{
+    font-size:medium;
+    font-weight:bold;
+    color: deeppink;
+}
+
+

@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta  http-equiv=""X-UA-Compatible" content="IE=edge" />
-        <meta name=""viewport" content="width=device-width, initial-scale1.0" /
-        <link rel=""Stylesheet"  href="./assets/css/style.css" />
+        <meta  http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale1=1.0" />
+        <link rel="Stylesheet" href="style.css" />
 <title>Coding Quiz Challenge</title>
 <h1>Coding Quiz Challenege</h1>
 </head>
@@ -13,15 +13,21 @@
     <div class="start_btn"><button>Begin Quiz</button></div>
     <div class="previous_btn"><button>previous</button></div>
     <div class="next_btn"><button>next</button></div>
+    <div class="submit_btn"><button>submit</button></div>
 </div>
-<div id="display-container">
-<div class="header">
-    <div class="number count">
-        <span class="number-of-questions">1 of 2 questions</span>
-    </div> 
-    <div class="timer-div">
+<div class="timer-div">
         <img src="timer.png" />
     </div>
+<div class="container">
+    <div class="score">
+        <span id="student-score">0</span>
+        <span id="score-total">/ 5</span>
+    </div>
+    <div class="content" id="questions">
+        <div id="question-text"></div>
+        <div class="choices"></div>
+    </div>
+</body>
     
 
    

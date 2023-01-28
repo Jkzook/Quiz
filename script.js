@@ -23,17 +23,17 @@ let questions = [
                   {option: "hypertext markup language",answer:right},
               
               ]}]
-    
 
+startBtn.addEventListener('click',start);
+previousBtn.addEventListener('click',previous);
+nextBtn.addEventListener('click',next);
+submitBtn.addEventListener('click',submit);
 
-
-
-
-
-[
-     question: what is vanilla JavaScript?,
-     answers:
-         [{option a: "ice cream flavor"}
-          { option b: "basic JavaScript"}
-          {option c: "a type of html"}
-]
+function startQuiz(){
+    currentQuestion = 0;
+    questionTText.innerHTML = questions[currentQuestion.question;
+    nextBtn.onclick = () =>
+        if(score<3){
+            score++;
+        }]
+}
